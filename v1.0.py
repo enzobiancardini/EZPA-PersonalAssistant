@@ -6,7 +6,7 @@ import wikipedia
 import PySimpleGUI as sg
 sg.theme('DarkGrey14')
 layout = [[sg.Text('Enter a command'), sg.InputText()], [sg.Button('Ok'), sg.Button('Cancel')]]
-window = sg.Window('ENPA', layout)
+window = sg.Window('Sethia', layout)
 
 import pyttsx3
 engine = pyttsx3.init()
